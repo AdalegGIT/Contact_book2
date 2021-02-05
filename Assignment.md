@@ -83,13 +83,13 @@ Both of these can be installed with:
 
 ```bash
 $ gem install mini_record
-$ gem install activerecord -v '4.2.7'
+$ gem install activerecord -v '4.2.10'
 ```
 
 ActiveRecord is database "agnostic", meaning this ORM works with a variety of different databases, such as SQLite, PostgreSQL, MySQL, etc. We'll need to install an extra gem to specify that we're working with SQLite.
 
 ```bash
-$ gem install sqlite3
+$ gem install sqlite3 -v 1.3.13
 ```
 
 Next step is to require and initialize a connection to our database. To do this, add the following lines to the top of your `contact.rb`
